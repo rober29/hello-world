@@ -7,12 +7,11 @@
   <servers>  
   </servers>
     <mirrors>   
-    <mirror>
-      <id>mirrorId</id>
-      <mirrorOf>repositoryId</mirrorOf>
-      <name>Human Readable Name for this Mirror.</name>
-      <url>https://repo1.maven.org/maven2/</url>
-    </mirror>    
+<mirror>
+        <id>central-all</id>
+        <mirrorOf>central</mirrorOf>
+        <url>https://company-internal-nexus/nexus/content/groups/central-all</url>
+    </mirror>  
   </mirrors>  
 <profiles>
  </profiles>
